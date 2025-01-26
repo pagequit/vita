@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: "Christian Klihm",
   description: "curriculum vitae",
+  base: '/vita/',
   themeConfig: {
     logo: '/me.png',
     nav: [],
